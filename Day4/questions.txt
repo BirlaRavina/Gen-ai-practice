@@ -1,0 +1,18 @@
+Day 3: Data Structures and Algorithms
+Understanding arrays and linked lists
+Stacks, queues, and deques
+Hash tables
+Binary search trees
+Recursion
+Sorting algorithms (like quicksort, mergesort, etc.)
+Questions for Review:
+1. Explain the difference between arrays and linked lists.
+2. How would you implement a queue in Python?
+3. Describe a real-world application of a hash table.
+4. What is a binary search tree and how does it work?
+5. Provide an example of a recursive function in Python.
+6. Explain the basic idea behind the mergesort algorithm.
+7. How does a deque differ from a stack or a queue?
+8. What is a binary heap and how is it used in sorting?
+9. Describe the concept of memoization in the context of recursion.
+10. Implement a simple search algorithm in Python.

@@ -1,0 +1,21 @@
+Advanced Topics
+Regular Expressions (Regex)
+Decorators
+Iterators
+Lambdas
+Object-Oriented Programming (OOP): Classes, Inheritance, Methods, and Dunder methods
+Modules: Built-in and Custom
+Package Managers: PyPI, Pip, Conda
+List Comprehension and Generator Expressions
+Different programming paradigms in Python
+Questions for Review:
+1. How do you use regular expressions in Python for pattern matching?
+2. What is a decorator, and provide an example of a decorator that times a function.
+3. Explain the difference between an iterator and a generator.
+4. Provide an example of a lambda function that sorts a list of tuples by the second value.
+5. How do you create a class in Python and what is inheritance?
+6. What are magic or dunder methods in Python, and give an example?
+7. How do you import a module in Python?
+8. What is PEP 8 and why is it important?
+9. Write a Python expression using generator expressions that generates even numbers up to 100.
+10. Explain the concept of scope in Python.
