@@ -17,12 +17,11 @@ from sentence_transformers import SentenceTransformer, util
 #     print(i)
 
 
-# In which direction The sun is rises
 
 model = SentenceTransformer("sentence-transformers/multi-qa-MiniLM-L6-cos-v1")
 
-# query = "In which direction does The sun  rise"
-query = "how is the weather today"
+query = "In which direction does The sun rise"
+# query = "how is the weather today"
 sentences = [
     "The weather is lovely today.",
     "It's so sunny outside!",
@@ -33,11 +32,14 @@ sentences = [
 qur_emb = model.encode(query)
 doc_emb = model.encode(sentences)
 
-print("query ", qur_emb.shape)
-print("doc", doc_emb.shape)
+# print("query ", qur_emb.shape)
+# print("doc", doc_emb.shape)
 
 scores = util.dot_score(qur_emb, doc_emb)[0].cpu().tolist()
-doc_score_pairs = list(zip(query, sentences))
+# doc_score_pairs = list(zip(query, sentences))
+doc_score_pairs = list(zip(sentences, scores))
 doc_score_pairs = sorted(doc_score_pairs, key=lambda x: x[1], reverse=True)
 
-print(doc_score_pairs)
+# print(doc_score_pairs)
+for sentence, score in doc_score_pairs:
+    print(score, sentence)
